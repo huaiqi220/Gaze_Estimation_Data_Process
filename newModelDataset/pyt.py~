@@ -1,0 +1,6 @@
+import cv2
+import skvideo
+
+video = cv2.VideoCapture("fesfesfse")
+print(video.get(3))
+metadata = skvideo.io.ffprobe( "/camera/_camera_.mp4")
